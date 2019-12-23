@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/*mainSlider*/
+.mainSlider{background:url(../images/123123_01.png) no-repeat; background-size:cover; height:940px;}
+
+/*mainCon01*/
+.mainCon01{height:940px;}
+.mainCon01 img{width:15px; margin-bottom:40px; margin-right:5px;}
+.mainCon01 .conL{background:url(../images/maincon01.jpg) no-repeat center center; width:46%; height:63%; margin-top:210px; margin-bottom:120px; float:left;}
+.mainCon01 .conR{}
+
+.mainCon01 .conR01{text-align:right; padding-top:140px; padding-bottom:100px; float:right;  width:54%;}
+.mainCon01 .conR02{text-align:right; float:left; width:54%; margin-top:10px;}
+.mainCon01 .conR02 img{width:95%; float:left; margin-left:3px; margin-top:6px;}
+
+.mainCon01 .conR01:after{display:inline-block; content:""; border-right:1px solid #000; height:250px; position:absolute; right:70px; margin-top:-250px;}
+.mainCon01 .conR02:before{display:inline-block; content:""; border-left:1px solid #000; height:250px; position:absolute; left:945px;}
+
+
+
+.mainCon01 li{font-size:56px; font-weight:bold; text-align:right;  padding:11px 130px;}
+.mainCon01 .txt{font-size:44px; color:#ef5f5f; font-weight:bold;}
+.mainCon01 .txt2{font-size:30px; text-align:right;}
+.mainCon01 .txt3{font-size:30px; text-align:right; float:left; margin-top:5px;}
+.mainCon01 .txt4{font-size:26px; color:#bbb; text-align:right; padding:5px 167px; }
+
+/*mainCon02*/
+.mainCon02{height:940px; width:100%;}
+.mainCon02 p{font-weight:bold; font-size:56px; border-bottom:15px solid #fdb813; margin:0 50px; padding:15px 0; text-align:left;}
+
+.mainCon02 .conC{}
+
+.mainCon02 .con01{text-align: center;}
+.con01 .img1{margin-top:40px; padding:40px;}
+.mainCon02 .con01B{}
+.con01B .img2{padding:60px;}
+
+.con01 .img3{margin-top:10px; padding:40px;}
+.con01B .img4{padding:60px;}
+
+
+/*mainCon03*/
+.mainCon03{height:940px;}
+.mainCon03 span{font-weight:bold; font-size:28px; margin:50px; padding:10px 0;}
+.mainCon03 .span2{font-weight:bold; font-size:28px; padding:10px 0; margin-left:1120px;}
+.mainCon03 p{font-weight:bold; font-size:56px; border-bottom:15px solid #fdb813; margin:25px 50px; padding-top:40px; padding-bottom:15px;}
+
+.mainCon03 .p2{font-size:28px; border:0; display:inline-block; margin-left:60px;}
+.mainCon03 .p3{font-size:28px; border:0; display:inline-block; margin-left:1100px;}
+
+.con03 li{width:500px; height:500px; background:#bbb; display:inline-block; text-align:center; vertical-align:middle; margin-top:10px; margin-bottom:50px; margin-right:55px; margin-left:55px;}
+
+.con03 a{font-size:40px; font-weight:bold; color:#fff; line-height:500px;}
+
+.con03 .img01{background:url(../images/1ap.png) no-repeat; background-size:cover; }
+.con03 .img01 a{color:#000;}
+
+.con03 .img02{background:url(../images/2sehwa.png) no-repeat; background-size:cover;}
+.con03 .img03{background:url(../images/3serve.png) no-repeat; background-size:cover;}
+
+/*mainCon04*/
+.mainCon04{height:940px;}
+.mainCon04 p{font-size:56px; font-weight:bold; padding:50px; margin-top:40px;}
+.mainCon04 .con04L{background:url(../images/main04.png) no-repeat; width:950px; height:570px; background-size:cover; margin:80px; display:inline-block;}
+.mainCon04 .con04R{ padding-right:240px; padding-top:50px; float:right;}
+.mainCon04 .con04R p{font-size:24px; padding:3px 0;}
+
+
+.con04R input{border:2px solid #ccc; width:410px; height:25px; border-radius:5px;}
+textarea{border:2px solid #ccc; width:410px; height:200px; border-radius:5px;}
+
+.con04R .box{width:150px; height:40px; background-color:#fdc689; text-align:center; border-radius:5px; margin:7% 33%;}
+.con04R span{line-height:40px; font-size:22px;}
+.con04R a{color:#000; font-weight:bold;}
+
+/*mainCon05*/
+.mainCon05{width:100%;}
+.mainCon05 img{display:block;}
